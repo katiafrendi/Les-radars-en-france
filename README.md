@@ -1,8 +1,10 @@
 # ProjetDatavisualisation Les Radars en France 
 ![](https://media.istockphoto.com/id/507853623/fr/photo/radar-appareil-photo.jpg?s=612x612&w=0&k=20&c=JCp_aTvUbIASBtysuOdeHGikOg8x3WjVsUNbl8v6XKY=)
-*Créateur : typhoonski  
+*
+Créateur : typhoonski  
 Crédits : Getty Images/iStockphoto
-Droits d'auteur : typhoonski*
+Droits d'auteur : typhoonski
+*
 
 ## Origine et traitement des données sur les radars en france 
 1) Les données concernats les radars a été extrat du site www.data.gouv.fr , j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces donnée de pouvoir les épuré, généralment les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de monfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars.J'ai retiré également,j'ai égalment retiré la colone "longueur_troncon_km" car elle n'était pas renseigné pour tout les radars
