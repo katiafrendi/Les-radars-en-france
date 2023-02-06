@@ -19,7 +19,7 @@ Utilisation de umap pour une visualisation dynamyque fonctionnalité de zoom plu
 
 NB: la vitesse limité par le radar n'est pas renseigné pour les radars de type "feu rouge" mais plutot pour les radars "fixe"
 ## Visualisation des differents types de radars <a name="TypeRadars"></a>
-![](https:///C:/Users/hp/Desktop/mastr%20defi/MasterII/Dataviz/Les%20types%20de%20radars%20.svg)
+![](C:\Users\hp\Downloads\Les types de radars.png)
   
 ### B. Jeu de données n°2 : les accidents de la route <a id="som1b"></a>
 
