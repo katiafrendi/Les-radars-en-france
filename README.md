@@ -38,3 +38,6 @@ Les conducteurs ont considérablement réduit leur vitesse moyenne, passant de 9
 #Utilisation des outils de datavisualiation 
 ##utilisation de l'outil paladio cependant les données traité par l'outil sont non exportablee donc en sois l'outil m'a permis de mieux comprendre et assimilité les données, avoir une première impression des données et vérifier la qualité de mes données = > capture video avec les filtres paladio 
 je passe à l'utilisation de l'outil rawgraph avec l'avantage d'exporter les données
+
+
+https://www.onisr.securite-routiere.gouv.fr/outils-statistiques/open-data
