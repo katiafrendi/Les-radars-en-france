@@ -42,3 +42,23 @@ je passe à l'utilisation de l'outil rawgraph avec l'avantage d'exporter les don
 
 
 https://www.onisr.securite-routiere.gouv.fr/outils-statistiques/open-data
+
+## Visualisation des lieux d'accident les plus courant avec Wikidata Query Service
+
+```sparql
+# Quelques accident en france 
+#defaultView:ImageGrid
+select distinct ?item ?itemLabel ?img
+where {
+  ?item wdt:P31 wd:Q9687 .
+  ?item wdt:P17 wd:Q142 .
+  ?item wdt:P18 ?img . 
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en, fr" } }
+
+
+
+
+
+
+
+
