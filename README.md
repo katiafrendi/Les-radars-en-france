@@ -50,6 +50,10 @@ je passe à l'utilisation de l'outil rawgraph avec l'avantage d'exporter les don
 
 https://www.onisr.securite-routiere.gouv.fr/outils-statistiques/open-data
 
+
+
+Taux de mortalité en 2020 en  fonction des département 
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ## Visualisation des lieux d'accident les plus courant avec Wikidata Query Service
 # Quelques accident en france 
 ```sparql
