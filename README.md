@@ -36,8 +36,9 @@ Les dates-clés du contrôle automatisé
 https://www.securite-routiere.gouv.fr/radars/chiffres-radars/historique-des-radars
 
 ## Radars et baisse de la mortalité routière
+###Croisement de doonnées 
 Les conducteurs ont considérablement réduit leur vitesse moyenne, passant de 91 km/h à 80 km/h. Cela a contribué à une baisse moyenne des accidents mortels à proximité des radars de 66 %. En 10 ans, entre 2003 et 2012, les radars ont permis de sauver 23 000 vies. 
-
+PS: les donénes concernant l'année 2018 étaient pas disponile pour des raison inconnues 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
