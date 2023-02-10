@@ -78,5 +78,4 @@ where {
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en, fr" } }
  ```
  <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0Aselect%20distinct%20%3Fitem%20%3FitemLabel%20%3Fimg%0Awhere%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ9687%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ142%20.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimg%20.%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2C%20fr%22%20%7D%20%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-
-
+ PS: je souligne la complexité d'effectuer une reqête avec car Wikidata ne peut pas être considérée comme une source fiable pour obtenir des données en temps réel sur la sécurité routière et la circulation, car elle se concentre principalement sur la collecte et l'organisation d'informations structurées et historiques sur des sujets tels que des événements, des personnes, des lieux et des œuvres d'art. 
