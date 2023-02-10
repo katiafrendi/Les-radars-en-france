@@ -5,13 +5,12 @@
 
 # Table des matières
 ## Choix du sujet 
-La sécurité routière a toujours été un sujet qui important et cruciale pour prévenir les accidents de la route et les blessures graves ou mortelles. d'ou l'importance  de suivre les règles de la route et c'est pour cette raison que l'état a mis en place des radars pour surveiller le comportement des conducteur, les controler et sanctionner, l'objécifs c'est de dissuader les conducteurs de conduire à des vitesses excessives.
-
-les questions principales auxquelles va répondre ma problématique sont les suivantes: 
-- Comment se répartissent les radars en France ?
-- Quels sont les types de radars existant en France ?
-- Y a t il une corélation entre baisse des accidents et la mise en place des radars ? 
-- Quels sont les départements dans lesquels le taux d'accidents est plus élevés ? 
+La sécurité sur les routes est un enjeu majeur pour éviter les accidents et les blessures graves ou mortelles. C'est pourquoi il est important de respecter les règles de conduite. L'État a installé des radars pour surveiller les conducteurs, les contrôler et les sanctionner, dans le but de dissuader ceux-ci de rouler à des vitesses excessives.
+Ma problématique vise à répondre aux questions suivantes :
+- Comment sont répartis les radars en France ?
+- Quels types de radars existent en France ?
+- Est-ce qu'il existe une relation entre la baisse des accidents de la route et l'installation de radars ?
+- Dans quels départements le taux d'accidents est-il le plus élevé ?
 
 ## Origine et traitement des données  <a id="som1"></a>
 ### A. Jeu de données n°1 : Répartition des radars en France <a id="som1a"></a> 
@@ -23,7 +22,7 @@ Extrait des données sur les radars.
  
 ### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
 
-Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). ces donénes sont issue du sute [Data.gouv](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/)
+Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partur sur site  [Data.gouv] (https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/) 
  
 ## Visalaisation de la répartition des radars sur l'ensemble du teriitoir francais 
 Utilisation de umap pour une visualisation dynamyque fonctionnalité de zoom plus performante 
@@ -75,11 +74,6 @@ where {
   ?item wdt:P17 wd:Q142 .
   ?item wdt:P18 ?img . 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en, fr" } }
-
-
-
-
-
-
-
-
+ 
+Commentaire sur le résultat de la requête
+Il n'est pas possible de répondre à cette requête car les informations relatives aux accidents de la route ne sont pas toujours disponibles dans Wikidata. Par ailleurs, il est peu probable que des images des sites d'accidents de la route en France soient disponibles, étant donné que ces événements sont souvent tragiques et sensibles.
