@@ -66,6 +66,7 @@ Taux de mortalité en 2020 en  fonction des département
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ## Visualisation des lieux d'accident les plus courant avec Wikidata Query Service
 # Quelques accident en france 
+ 
 ```sparql
 #defaultView:ImageGrid
 select distinct ?item ?itemLabel ?img
@@ -74,6 +75,7 @@ where {
   ?item wdt:P17 wd:Q142 .
   ?item wdt:P18 ?img . 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en, fr" } }
+ ```
  
 Commentaire sur le résultat de la requête
 Il n'est pas possible de répondre à cette requête car les informations relatives aux accidents de la route ne sont pas toujours disponibles dans Wikidata. Par ailleurs, il est peu probable que des images des sites d'accidents de la route en France soient disponibles, étant donné que ces événements sont souvent tragiques et sensibles.
