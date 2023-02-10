@@ -3,15 +3,18 @@
 
 *Créateur : typhoonski, Droits d'auteur : typhoonski*
 
+# Table des matières
 ##Choix du sujet 
 La sécurité routière a toujours été un 
 
 ## Origine et traitement des données sur les radars en france <a id="som1"></a>
 ### A. Jeu de données n°1 : Répartition des radars en France <a id="som1a"></a> 
-Données concernant les quelques 3000 radars automatiques en France. Informe de l'emplacement précis, de la route, de la direction, du type (fixe, feu rouge, tronçon...), de la vitesse contrôlée, de la date d'installation. Vous pouvez en apprendre plus sur une page dédiée sur le site de la sécurité routière.
-
+les données concernant les quelques 3000 radars automatiques en France. Informe de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation. Vous pouvez en apprendre plus sur une page dédiée sur le site de la sécurité routière.
 Ce jeu de données utilise comme source le site du Ministère de l'Intérieur https://radars.securite-routiere.gouv.fr.
- Les données concernats les radars a été extrait du site www.data.gouv.fr , j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces données de pouvoir afin de les épurées,les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de monfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars.J'ai retiré également,j'ai égalment retiré la colone "longueur_troncon_km" car elle n'était pas renseigné pour tout les radars
+ Les données concernats les radars a été extrait du site www.data.gouv.fr , j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces données de pouvoir afin de les épurées,les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de mo nfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars.
+### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
+
+ Les données concernant les  les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Deux modalités sont disponibles : des listes d'accidents ou leurs bilans correspondants.
 ## Visalaisation de la répartition des radars sur l'ensemble du teriitoir francais 
 Utilisation de umap pour une visualisation dynamyque fonctionnalité de zoom plus performante 
  
