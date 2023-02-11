@@ -17,20 +17,21 @@ Ma problématique vise à répondre aux questions suivantes :
 les données concernant les quelques 3000 radars automatiques en France. Informe de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation. Vous pouvez en apprendre plus sur une page dédiée sur le site de la sécurité routière.
 Ce jeu de données utilise comme source le site du Ministère de l'Intérieur , que j'ai pu extraire à partir du site [data.gouv] (https://www.data.gouv.fr/fr/datasets/radars-automatiques/), j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces données afin de les épurées. Les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de mon nfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars. J'ai pu utiliser open refin afin d'effectuer certaines modification et de parveir à ce réultat final.
 Extrait des données sur les radars.
-| anneeCreation | departement | latitude  | longitude | id    | equipement | type            | emplacement         | route                                              | vitesse_vehicules_legers_kmh         |    |
-|---------------|-------------|-----------|-----------|-------|------------|-----------------|---------------------|----------------------------------------------------|--------------------------------------|----|
-| 2018          | 57          | 49.11907  | 6.20408   | 12923 | FARECO     | Radar feu rouge | METZ                |                                                    |                                      |    |
-| 2018          | 80          | 49.95842  | 2.85479   | 13598 | MORPHO     | Radar fixe      | HEM MONACU          | A1                                                 | 130                                  |    |
-| 2018          | 91          | 48.67029  | 2.27976   | 13599 | MORPHO     | Radar fixe      | LA VILLE DU BOIS    | RN20                                               | 70                                   |    |
-| 2018          | 91          | 48.63212  | 2.4065    | 13600 | MORPHO     | Radar fixe      | COURCOURONNES       | A6                                                 | 110                                  |    |
-| 2018          | 78          | 48.83313  | 2.08501   | 13601 | MORPHO     | Radar fixe      | BAILLY              | A12                                                | 110                                  |    |
-| 2018          | 86          | 46.55483  | 0.28342   | 13602 | MORPHO     | Radar fixe      | VOUNEUIL SOUS BIARD | A10                                                | 130                                  |    |
-| 2018          | 67          | 48.57066  | 7.73904   | 13603 | MORPHO     | Radar fixe      | STRASBOURG          | RN4                                                | 70                                   |    |
-| 2018          | 67          | 48.67772  | 7.77558   | 13604 | MORPHO     | Radar fixe      | HOERDT              | A35                                                | 130                                  |    |
-| 2018          | 6           | 43.655729 | 7.161446  | 13605 | MORPHO     | Radar fixe      | CAGNES SUR MER      | Face au n° 46 du  Boulevard de la Plage            | 50                                   |    |
-| 2018          | 6           | 43.712    | 7.2714    | 13606 | MORPHO     | Radar fixe      | NICE                | Face au 37 Boulevard de Cimiez                     | 50                                   |    |
-| 2018          | 6           | 43.707    | 7.2793    | 13607 | MORPHO     | Radar fixe      | NICE                | Voie Malraux , 6 m après le candélabre n° 3/8/5006 | 50                                   |    |
-| 2018          | 30          | 44.195    | 4.1338    | 13608 | MORPHO     | Radar fixe      | ROUSSON             | RD904                                              | 90                                   |    |
+
+| anneeCreation | departement | latitude  | longitude | id    | equipement | type            | emplacement         |
+|---------------|-------------|-----------|-----------|-------|------------|-----------------|---------------------|
+| 2018          | 57          | 49.11907  | 6.20408   | 12923 | FARECO     | Radar feu rouge | METZ                |
+| 2018          | 80          | 49.95842  | 2.85479   | 13598 | MORPHO     | Radar fixe      | HEM MONACU          |
+| 2018          | 91          | 48.67029  | 2.27976   | 13599 | MORPHO     | Radar fixe      | LA VILLE DU BOIS    |
+| 2018          | 91          | 48.63212  | 2.4065    | 13600 | MORPHO     | Radar fixe      | COURCOURONNES       |
+| 2018          | 78          | 48.83313  | 2.08501   | 13601 | MORPHO     | Radar fixe      | BAILLY              |
+| 2018          | 86          | 46.55483  | 0.28342   | 13602 | MORPHO     | Radar fixe      | VOUNEUIL SOUS BIARD |
+| 2018          | 67          | 48.57066  | 7.73904   | 13603 | MORPHO     | Radar fixe      | STRASBOURG          |
+| 2018          | 67          | 48.67772  | 7.77558   | 13604 | MORPHO     | Radar fixe      | HOERDT              |
+| 2018          | 6           | 43.655729 | 7.161446  | 13605 | MORPHO     | Radar fixe      | CAGNES SUR MER      |
+| 2018          | 6           | 43.712    | 7.2714    | 13606 | MORPHO     | Radar fixe      | NICE                |
+
+
 ### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
 
 Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partur sur site [Data.gouv] (https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/) 
