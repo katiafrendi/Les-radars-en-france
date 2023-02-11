@@ -18,19 +18,18 @@ les données concernant les quelques 3000 radars automatiques en France. Informe
 Ce jeu de données utilise comme source le site du Ministère de l'Intérieur , que j'ai pu extraire à partir du site [data.gouv] (https://www.data.gouv.fr/fr/datasets/radars-automatiques/), j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces données afin de les épurées. Les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de mon nfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars. J'ai pu utiliser open refin afin d'effectuer certaines modification et de parveir à ce réultat final.
 Extrait des données sur les radars.
 
-| anneeCreation | departement | latitude  | longitude | id    | equipement | type            | emplacement         |
-|---------------|-------------|-----------|-----------|-------|------------|-----------------|---------------------|
-| 2018          | 57          | 49.11907  | 6.20408   | 12923 | FARECO     | Radar feu rouge | METZ                |
-| 2018          | 80          | 49.95842  | 2.85479   | 13598 | MORPHO     | Radar fixe      | HEM MONACU          |
-| 2018          | 91          | 48.67029  | 2.27976   | 13599 | MORPHO     | Radar fixe      | LA VILLE DU BOIS    |
-| 2018          | 91          | 48.63212  | 2.4065    | 13600 | MORPHO     | Radar fixe      | COURCOURONNES       |
-| 2018          | 78          | 48.83313  | 2.08501   | 13601 | MORPHO     | Radar fixe      | BAILLY              |
-| 2018          | 86          | 46.55483  | 0.28342   | 13602 | MORPHO     | Radar fixe      | VOUNEUIL SOUS BIARD |
-| 2018          | 67          | 48.57066  | 7.73904   | 13603 | MORPHO     | Radar fixe      | STRASBOURG          |
-| 2018          | 67          | 48.67772  | 7.77558   | 13604 | MORPHO     | Radar fixe      | HOERDT              |
-| 2018          | 6           | 43.655729 | 7.161446  | 13605 | MORPHO     | Radar fixe      | CAGNES SUR MER      |
-| 2018          | 6           | 43.712    | 7.2714    | 13606 | MORPHO     | Radar fixe      | NICE                |
+| anneeCreation | departement | latitude  | longitude | equipement | type            | emplacement         |
+|---------------|-------------|-----------|-----------|------------|-----------------|---------------------|
+| 2018          | 57          | 49.11907  | 6.20408   | FARECO     | Radar feu rouge | METZ                |
+| 2018          | 80          | 49.95842  | 2.85479   | MORPHO     | Radar fixe      | HEM MONACU          |
+| 2018          | 91          | 48.67029  | 2.27976   | MORPHO     | Radar fixe      | LA VILLE DU BOIS    |
+| 2018          | 91          | 48.63212  | 2.4065    | MORPHO     | Radar fixe      | COURCOURONNES       |
+| 2018          | 78          | 48.83313  | 2.08501   | MORPHO     | Radar fixe      | BAILLY              |
+| 2018          | 86          | 46.55483  | 0.28342   | MORPHO     | Radar fixe      | VOUNEUIL SOUS BIARD |
+| 2018          | 67          | 48.57066  | 7.73904   | MORPHO     | Radar fixe      | STRASBOURG          |
 
+
+> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 ### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
 
