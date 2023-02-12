@@ -21,6 +21,7 @@ Ma problématique vise à répondre aux questions suivantes :
 
 les données concernant les 3000 radars automatiques en France. Informent de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation.
 Ce jeu de données utilise comme source le site du Ministère de l'Intérieur, j'ai pu extraire à partir du site [data.gouv](https://www.data.gouv.fr/fr/datasets/radars-automatiques/). J'ai effectué une analyse qualité (sprint qualité) rigoureuse des données et appliqué des procédés de purification. Les données sont de qualité satisfaisante, bien qu'il soit possible de constater certaines omissions pour les dernières entrées de mon fichier, lesquelles sont toutefois peu significatives, étant donné qu'elles sont liées à la direction des radars. Pour corriger les irrégularités identifiées.
+
 j'ai eu recours à OpenRefine, par exemple pour ajouter une date de création : 
 ```sparql
 value.match(/.*(\d{4}).*/)[0]
@@ -40,19 +41,21 @@ ce qui a conduit à l'obtention des résultats finaux, ci-dessous un aperçu des
 
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+NB: la vitesse limité par le radar n'est pas renseigné pour les radars de type "feu rouge" mais plutot pour les radars "fixe"
+
 
 ### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
 
-Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partir du site [Data.gouv](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/)
+Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partir du site [data.gouv](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/)
 J'ai fusionné plusieurs jeux de données annuels en un seul fichier, étant donné que les informations étaient initialement éparpillées sur plusieurs enregistrements. De plus, j'ai amélioré la présentation des colonnes pour obtenir des données de qualité.
  
-## Visalaisation de la répartition des radars sur l'ensemble du teriitoir francais 
-Utilisation de umap pour une visualisation dynamyque fonctionnalité de zoom plus performante 
- 
- une concentration de radars plus en région francilienne 
+## Visualaisation de la répartition des radars sur l'ensemble du teriitoir francais 
+Pour ce premier jeu de donneés j'ai eu recours à l'utilisation de umap pour une visulasation dynamyque c'est à dire la possibilité de zoomer pour avoir l'emplacement exact des radars.
+On constate : 
+Il est possible de suggérer qu'une concentration importante de radars dans la région francilienne est liée à la densité de la population dans cette région. En effet, étant donné qu'il y a plus de personnes et de véhicules sur les routes, il est probable que la sécurité routière soit une préoccupation majeure dans cette région, justifiant ainsi une surveillance accrue. Cependant, il convient également de prendre en compte d'autres facteurs tels que les taux d'accidents et d'infractions au code de la route dans la région, ainsi que les politiques de sécurité routière mises en place par les autorités locales et nationales. Ces facteurs seront explorés plus en détail dans les prochaines visualisations.
+
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=2623604"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205">Voir en plein écran</a></p>
 
-NB: la vitesse limité par le radar n'est pas renseigné pour les radars de type "feu rouge" mais plutot pour les radars "fixe"
 ## Visualisation des differents types de radars <a name="TypeRadars"></a>
 ![Les types de radars  (1)]![Les types de radars ](https://user-images.githubusercontent.com/121629941/217388626-c5d449c1-73ef-4e61-b488-fda81a097d8f.png)
 
