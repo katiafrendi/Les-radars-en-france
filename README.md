@@ -75,7 +75,11 @@ Il convient de noter que les données relatives à l'année 2018 n'étaient pas 
 
 ## Taux de mortalité routière en 2020 en fonction des départements français
 
+Le taux de mortalité routière en France en 2020 a été impacté par la pandémie de Covid-19, qui a entraîné une baisse significative des déplacements et donc du trafic routier. Selon les données de l'Observatoire national interministériel de la sécurité routière (ONISR), le nombre de personnes tuées sur les routes françaises en 2020 a atteint un plus bas historique depuis la création de cet observatoire en 1948, avec 2 550 décès enregistrés. Cela représente une baisse de 21,5 % par rapport à l'année précédente, où 3 244 personnes ont été tuées sur les routes.
+
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Pour finir, Tous les indicateurs de la sécurité routière ont connu une amélioration en 2020, notamment le nombre d'accidents corporels (- 19 %) et le nombre de blessés hospitalisés (- 22 %). Cependant, malgré ces chiffres encourageants, il est important de continuer à promouvoir une conduite responsable et respectueuse des règles de sécurité routière afin de maintenir cette tendance à la baisse.
 ## Visualisation des lieux d'accident les plus courant avec Wikidata Query Service
 Il n'est pas possible d'avoir un résultat de reqête assez pertinent car les informations relatives aux accidents de la route ne sont pas toujours disponibles dans Wikidata. Par ailleurs, il est peu probable que des images des sites d'accidents de la route en France soient disponibles, étant donné que ces événements sont souvent tragiques et sensibles.
  
