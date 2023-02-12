@@ -57,9 +57,9 @@ Il est possible de suggérer qu'une concentration importante de radars dans la r
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=2623604"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205">Voir en plein écran</a></p>
 
 ## Visualisation des differents types de radars <a name="TypeRadars"></a>
-![Les types de radars  (1)]![Les types de radars ](https://user-images.githubusercontent.com/121629941/217388626-c5d449c1-73ef-4e61-b488-fda81a097d8f.png)
 
 
+![viz](https://user-images.githubusercontent.com/121629941/218332270-64328c76-3000-4e8b-af0e-6f28a9885b17.png)
 
 
 Les dates-clés du contrôle automatisé
