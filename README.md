@@ -68,6 +68,7 @@ Dans cette deuxième visualisation réalisée à l'aide de l'outil Rawgraph, un 
 J'ai utilisé l'outil Flourish pour créer ma troisième visualisation, qui présente le taux de mortalité sur les routes en France entre 2010 et 2020. Globalement, on constate une tendance à la baisse, malgré quelques augmentations observées en 2017 et 2015. Il est possible d'expliquer les raisons pour lesquelles il y a eu un nombre élevé de morts sur les routes en France en 2017, notamment des comportements à risque tels que la vitesse excessive, la conduite sous l'influence de l'alcool ou de drogues, ou le non-respect des règles de conduite. Il convient toutefois de noter que le taux de mortalité a nettement diminué en 2020.
 
 Des études en sécurité routière ont montré que les conducteurs ont significativement réduit leur vitesse moyenne, passant de 91 km/h à 80 km/h, ce qui a contribué à une baisse moyenne de 66% des accidents mortels à proximité des radars. Au cours de la période de 10 ans entre 2003 et 2012, les radars ont permis de sauver 23 000 vies. 
+il faut noter que le taux de mortalité routière en France en 2020 a été impacté par la pandémie de Covid-19, qui a entraîné une baisse significative des déplacements et donc du trafic routier. Selon les données de l'Observatoire national interministériel de la sécurité routière (ONISR), le nombre de personnes tuées sur les routes françaises en 2020 a atteint un plus bas historique depuis la création de cet observatoire en 1948, avec 2 550 décès enregistrés. Cela représente une baisse de 21,5 % par rapport à l'année précédente, où 3 244 personnes ont été tuées sur les routes.
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12681434"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -75,7 +76,9 @@ Il convient de noter que les données relatives à l'année 2018 n'étaient pas 
 
 ## Taux de mortalité routière en 2020 en fonction des départements français
 
-Le taux de mortalité routière en France en 2020 a été impacté par la pandémie de Covid-19, qui a entraîné une baisse significative des déplacements et donc du trafic routier. Selon les données de l'Observatoire national interministériel de la sécurité routière (ONISR), le nombre de personnes tuées sur les routes françaises en 2020 a atteint un plus bas historique depuis la création de cet observatoire en 1948, avec 2 550 décès enregistrés. Cela représente une baisse de 21,5 % par rapport à l'année précédente, où 3 244 personnes ont été tuées sur les routes.
+Pour ma dernière visualisation avec l'outil Flourish, j'ai cherché à démontrer l'impact de la mortalité routière sur les différents départements français en 2020. Les résultats ont montré que les départements les plus densément peuplés, tels que le 75, le 13 et le 83, ont été les plus impactés par la mortalité routière, malgré une tendance générale à la baisse de la mortalité routière à l'échelle nationale.
+
+Il est important de noter que cette tendance générale à la baisse est attribuée en partie à l'installation de radars sur les routes françaises. En effet, ces dispositifs de sécurité routière ont permis de réduire considérablement la vitesse des automobilistes et, par conséquent, le nombre d'accidents mortels sur les routes. Au cours des 10 dernières années, les radars ont contribué à sauver environ 23 000 vies en France. (OSNIR)
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -95,6 +98,6 @@ where {
  ```
  <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0Aselect%20distinct%20%3Fitem%20%3FitemLabel%20%3Fimg%0Awhere%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ9687%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ142%20.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimg%20.%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2C%20fr%22%20%7D%20%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
  PS: je souligne la complexité d'effectuer une reqête avec car Wikidata ne peut pas être considérée comme une source fiable pour obtenir des données en temps réel sur la sécurité routière et la circulation, car elle se concentre principalement sur la collecte et l'organisation d'informations structurées et historiques sur des sujets tels que des événements, des personnes, des lieux et des œuvres d'art. 
- 
+ >Petite story avec l'outil flourish pour démontrer des images des différents type de radars 
  <div class="flourish-embed" data-src="story/1825342"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
