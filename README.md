@@ -109,4 +109,5 @@ where {
  PS: je souligne la complexité d'effectuer une reqête avec car Wikidata ne peut pas être considérée comme une source fiable pour obtenir des données en temps réel sur la sécurité routière et la circulation, car elle se concentre principalement sur la collecte et l'organisation d'informations structurées et historiques sur des sujets tels que des événements, des personnes, des lieux et des œuvres d'art. 
  >Petite story avec l'outil flourish pour démontrer des images des différents type de radars 
  <div class="flourish-embed" data-src="story/1825342"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ K
 
