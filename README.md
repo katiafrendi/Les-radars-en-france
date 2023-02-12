@@ -1,4 +1,4 @@
-# les radars routiers en france
+# Les radars routiers en france
 
 Les radars routiers sont des dispositifs de contrôle de la vitesse des véhicules sur les routes, et ils jouent un rôle crucial dans la sécurité routière. En mesurant la vitesse des véhicules, les radars routiers aident à prévenir les accidents de la route en encourageant les conducteurs à respecter les limites de vitesse et à conduire prudemment.
 Les radars routiers sont également utiles pour l'application des lois et des règlements de la circulation. Les autorités peuvent utiliser les données collectées par les radars routiers pour identifier les zones à risque et pour planifier des mesures de sécurité routière.
@@ -19,9 +19,14 @@ Ma problématique vise à répondre aux questions suivantes :
 ## Origine et traitement des données  <a id="som1"></a>
 ### A. Jeu de données n°1 : Répartition des radars en France <a id="som1a"></a> 
 
-les données concernant les quelques 3000 radars automatiques en France. Informe de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation. Vous pouvez en apprendre plus sur une page dédiée sur le site de la sécurité routière.
-Ce jeu de données utilise comme source le site du Ministère de l'Intérieur , que j'ai pu extraire à partir du site [data.gouv] (https://www.data.gouv.fr/fr/datasets/radars-automatiques/), j'ai pu effectuer un sprint qualité afin d'évaluer la qualité de ces données afin de les épurées. Les données sont de qualité nous remarquons l'absence de certaines données pour les dernières ligne de mon nfichier ce qui n'est pas très impactant car c'est relatif à la diretion auxquel sont rataché les radars. J'ai pu utiliser open refin afin d'effectuer certaines modification et de parveir à ce réultat final.
-Extrait des données sur les radars.
+les données concernant les 3000 radars automatiques en France. Informent de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation.
+Ce jeu de données utilise comme source le site du Ministère de l'Intérieur, j'ai pu extraire à partir du site [data.gouv](https://www.data.gouv.fr/fr/datasets/radars-automatiques/). J'ai effectué une analyse qualité (sprint qualité) rigoureuse des données et appliqué des procédés de purification. Les données sont de qualité satisfaisante, bien qu'il soit possible de constater certaines omissions pour les dernières entrées de mon fichier, lesquelles sont toutefois peu significatives, étant donné qu'elles sont liées à la direction des radars. Pour corriger les irrégularités identifiées.
+j'ai eu recours à OpenRefine, par exemple pour ajouter une date de création : 
+```sparql
+value.match(/.*(\d{4}).*/)[0]
+```
+ce qui a conduit à l'obtention des résultats finaux, ci-dessous un aperçu des données relatives aux radars.
+
 
 | anneeCreation | departement | latitude  | longitude | equipement | type            | emplacement         |
 |---------------|-------------|-----------|-----------|------------|-----------------|---------------------|
