@@ -8,6 +8,16 @@ Voici une vidéo qui explique le fonctionnement des radars de manière didactiqu
 
 
 # Table des matières
+1.[Les radars routiers en france](#1)
+2.[Choix du sujet](#2)
+3.[Origine et traitement des données](#3)
+ A. [Jeu de données n°1 : Répartition des radars en France](#4)
+ B. [Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020)](#5)
+ 4.[Visualaisation de la répartition des radars sur l'ensemble du teriitoir francais](#6)
+ 5.[Visualisation des differents types de radars](#7)
+ 6.[Radars et baisse de la mortalité routière](#8)
+ 7.[Taux de mortalité routière en 2020 en fonction des départements français](#9)
+ 8.[Visualisation des lieux d'accident les plus courant avec Wikidata Query Service](#10)
 ## Choix du sujet 
 La sécurité sur les routes est un enjeu majeur pour éviter les accidents et les blessures graves ou mortelles. C'est pourquoi il est important de respecter les règles de conduite. L'État a installé des radars pour surveiller les conducteurs, les contrôler et les sanctionner, dans le but de dissuader ceux-ci de rouler à des vitesses excessives.
 Ma problématique vise à répondre aux questions suivantes :
@@ -16,7 +26,7 @@ Ma problématique vise à répondre aux questions suivantes :
 - Est-ce qu'il existe une relation entre la baisse des accidents de la route et l'installation de radars ?
 - Dans quels départements le taux d'accidents est-il le plus élevé ?
 
-## Origine et traitement des données  <a id="som1"></a>
+## Origine et traitement des données  <a id="1"></a>
 ### A. Jeu de données n°1 : Répartition des radars en France <a id="som1a"></a> 
 
 les données concernant les 3000 radars automatiques en France. Informent de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation.
