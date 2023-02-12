@@ -85,7 +85,7 @@ Il convient de noter que les données relatives à l'année 2018 n'étaient pas 
 
 ## Taux de mortalité routière en 2020 en fonction des départements français<a id="9"></a>
 
-Pour ma dernière visualisation avec l'outil Flourish, j'ai cherché à démontrer l'impact de la mortalité routière sur les différents départements français en 2020. Les résultats ont montré que les départements les plus densément peuplés, tels que le 75, le 13 et le 83, ont été les plus impactés par la mortalité routière, malgré une tendance générale à la baisse de la mortalité routière à l'échelle nationale.
+Pour ma dernière visualisation avec l'outil Flourish, j'ai cherché à démontrer l'impact de la mortalité routière sur les différents départements français en 2020. Les résultats ont montré que les départements les plus densément peuplés et spécialement en aglomération, tels que le 75, le 13, le 59 et le 33, ont été les plus impactés par la mortalité routière, malgré une tendance générale à la baisse de la mortalité routière à l'échelle nationale.
 
 Il est important de noter que cette tendance générale à la baisse est attribuée en partie à l'installation de radars sur les routes françaises. En effet, ces dispositifs de sécurité routière ont permis de réduire considérablement la vitesse des automobilistes et, par conséquent, le nombre d'accidents mortels sur les routes. Au cours des 10 dernières années, les radars ont contribué à sauver environ 23 000 vies en France. (OSNIR)
 
@@ -109,5 +109,3 @@ where {
  PS: je souligne la complexité d'effectuer une reqête avec car Wikidata ne peut pas être considérée comme une source fiable pour obtenir des données en temps réel sur la sécurité routière et la circulation, car elle se concentre principalement sur la collecte et l'organisation d'informations structurées et historiques sur des sujets tels que des événements, des personnes, des lieux et des œuvres d'art. 
  >Petite story avec l'outil flourish pour démontrer des images des différents type de radars 
  <div class="flourish-embed" data-src="story/1825342"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
- K
-
