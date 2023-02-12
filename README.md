@@ -43,7 +43,8 @@ ce qui a conduit à l'obtention des résultats finaux, ci-dessous un aperçu des
 
 ### B. Jeu de données n°2 :  les  les accidents corporels de la circulation routière (2010-2020) <a id="som1a"></a> 
 
-Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partur sur site [Data.gouv] (https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/) 
+Le second jeu de donnée va concerner les accidents corporels de la circulation routière enregistrés par les forces de l'ordre, ainsi que les victimes de ces accidents, en France métropolitaine et outre-mer, ces 10 dernières années jusqu'en 2020 (dernière année officielle). Les données sur les accidents de la route en France sont gérées par des organismes tels que l'Observatoire National Interministériel de la Sécurité Routière (ONISR) et téléchargé à partir du site [Data.gouv](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/)
+J'ai fusionné plusieurs jeux de données annuels en un seul fichier, étant donné que les informations étaient initialement éparpillées sur plusieurs enregistrements. De plus, j'ai amélioré la présentation des colonnes pour obtenir des données de qualité.
  
 ## Visalaisation de la répartition des radars sur l'ensemble du teriitoir francais 
 Utilisation de umap pour une visualisation dynamyque fonctionnalité de zoom plus performante 
