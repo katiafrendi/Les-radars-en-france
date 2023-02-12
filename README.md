@@ -60,15 +60,7 @@ Il est possible de suggérer qu'une concentration importante de radars dans la r
 ![Les types de radars  (1)]![Les types de radars ](https://user-images.githubusercontent.com/121629941/217388626-c5d449c1-73ef-4e61-b488-fda81a097d8f.png)
 
 
-  
-### B. Jeu de données n°2 : les accidents de la route <a id="som1b"></a>
 
-2) Les données sur les accidents de la route sont issues de ( à voir)
-https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2021/
-https://www.data.gouv.fr/fr/datasets/base-de-donnees-des-accidents-corporels-de-la-circulation/
-## Pourquoi les radars 
-1/La décision d’implanter un radar s’effectue sur des sites où se produisent un nombre d’accidents corporels supérieur à la moyenne, où la vitesse est souvent en cause dans la survenance de ces accidents et où les contrôles sont difficiles à réaliser avec des moyens humains.
-2/Le déploiement de radars automatiques en France est intervenu dès 2003 dans l’optique de réduire le nombre de tués sur les routes.
 
 Les dates-clés du contrôle automatisé
 https://www.securite-routiere.gouv.fr/radars/chiffres-radars/historique-des-radars
