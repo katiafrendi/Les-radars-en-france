@@ -22,7 +22,7 @@ Ma problématique vise à répondre aux questions suivantes :
 les données concernant les 3000 radars automatiques en France. Informent de l'emplacement précis, de la route, de la direction, du type, de la vitesse contrôlée, de la date d'installation.
 Ce jeu de données utilise comme source le site du Ministère de l'Intérieur, j'ai pu extraire à partir du site [data.gouv](https://www.data.gouv.fr/fr/datasets/radars-automatiques/). J'ai effectué une analyse qualité (sprint qualité) rigoureuse des données et appliqué des procédés de purification. Les données sont de qualité satisfaisante, bien qu'il soit possible de constater certaines omissions pour les dernières entrées de mon fichier, lesquelles sont toutefois peu significatives, étant donné qu'elles sont liées à la direction des radars. Pour corriger les irrégularités identifiées.
 
-j'ai eu recours à OpenRefine, par exemple pour ajouter une date de création : 
+j'ai eu recours à OpenRefine, par exemple pour ajouter une anneé de création : 
 ```sparql
 value.match(/.*(\d{4}).*/)[0]
 ```
@@ -52,6 +52,7 @@ J'ai fusionné plusieurs jeux de données annuels en un seul fichier, étant don
 ## Visualaisation de la répartition des radars sur l'ensemble du teriitoir francais 
 Pour ce premier jeu de donneés j'ai eu recours à l'utilisation de umap pour une visulasation dynamyque c'est à dire la possibilité de zoomer pour avoir l'emplacement exact des radars.
 On constate : 
+
 Il est possible de suggérer qu'une concentration importante de radars dans la région francilienne est liée à la densité de la population dans cette région. En effet, étant donné qu'il y a plus de personnes et de véhicules sur les routes, il est probable que la sécurité routière soit une préoccupation majeure dans cette région, justifiant ainsi une surveillance accrue. Cependant, il convient également de prendre en compte d'autres facteurs tels que les taux d'accidents et d'infractions au code de la route dans la région, ainsi que les politiques de sécurité routière mises en place par les autorités locales et nationales. Ces facteurs seront explorés plus en détail dans les prochaines visualisations.
 
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=2623604"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/repartition-des-radars-en-france_867205">Voir en plein écran</a></p>
@@ -64,20 +65,16 @@ Dans cette deuxième visualisation réalisée à l'aide de l'outil Rawgraph, un 
 
 
 ## Radars et baisse de la mortalité routière
-###Croisement de doonnées 
-Les conducteurs ont considérablement réduit leur vitesse moyenne, passant de 91 km/h à 80 km/h. Cela a contribué à une baisse moyenne des accidents mortels à proximité des radars de 66 %. En 10 ans, entre 2003 et 2012, les radars ont permis de sauver 23 000 vies. 
-PS: les donénes concernant l'année 2018 étaient pas disponile pour des raison inconnues 
+J'ai utilisé l'outil Flourish pour créer ma troisième visualisation, qui présente le taux de mortalité sur les routes en France entre 2010 et 2020. Globalement, on constate une tendance à la baisse, malgré quelques augmentations observées en 2017 et 2015. Il est possible d'expliquer les raisons pour lesquelles il y a eu un nombre élevé de morts sur les routes en France en 2017, notamment des comportements à risque tels que la vitesse excessive, la conduite sous l'influence de l'alcool ou de drogues, ou le non-respect des règles de conduite. Il convient toutefois de noter que le taux de mortalité a nettement diminué en 2020.
+
+Des études en sécurité routière ont montré que les conducteurs ont significativement réduit leur vitesse moyenne, passant de 91 km/h à 80 km/h, ce qui a contribué à une baisse moyenne de 66% des accidents mortels à proximité des radars. Au cours de la période de 10 ans entre 2003 et 2012, les radars ont permis de sauver 23 000 vies. 
+
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12681434"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-#Utilisation des outils de datavisualiation 
-##utilisation de l'outil paladio cependant les données traité par l'outil sont non exportablee donc en sois l'outil m'a permis de mieux comprendre et assimilité les données, avoir une première impression des données et vérifier la qualité de mes données = > capture video avec les filtres paladio 
-je passe à l'utilisation de l'outil rawgraph avec l'avantage d'exporter les données
 
+Il convient de noter que les données relatives à l'année 2018 n'étaient pas disponibles pour des raisons inconnues.
 
-https://www.onisr.securite-routiere.gouv.fr/outils-statistiques/open-data
+## Taux de mortalité routière en 2020 en fonction des départements français
 
-
-
-Taux de mortalité en 2020 en  fonction des département 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12680915"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ## Visualisation des lieux d'accident les plus courant avec Wikidata Query Service
 Il n'est pas possible d'avoir un résultat de reqête assez pertinent car les informations relatives aux accidents de la route ne sont pas toujours disponibles dans Wikidata. Par ailleurs, il est peu probable que des images des sites d'accidents de la route en France soient disponibles, étant donné que ces événements sont souvent tragiques et sensibles.
