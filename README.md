@@ -1,6 +1,11 @@
-# ProjetDatavisualisation Les Radars en France 
+# les radars routiers en france
+
+Les radars routiers sont des dispositifs de contrôle de la vitesse des véhicules sur les routes, et ils jouent un rôle crucial dans la sécurité routière. En mesurant la vitesse des véhicules, les radars routiers aident à prévenir les accidents de la route en encourageant les conducteurs à respecter les limites de vitesse et à conduire prudemment.
+Les radars routiers sont également utiles pour l'application des lois et des règlements de la circulation. Les autorités peuvent utiliser les données collectées par les radars routiers pour identifier les zones à risque et pour planifier des mesures de sécurité routière.
+Voici une vidéo qui explique le fonctionnement des radars de manière didactique.
+
 <iframe width="853" height="480" src="https://www.youtube.com/embed/4E9TKXSK5CI" title="Fonctionnement du radar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-*Créateur : typhoonski, Droits d'auteur : typhoonski*
+
 
 # Table des matières
 ## Choix du sujet 
