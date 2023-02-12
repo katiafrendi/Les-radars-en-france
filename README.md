@@ -58,12 +58,10 @@ Il est possible de suggérer qu'une concentration importante de radars dans la r
 
 ## Visualisation des differents types de radars <a name="TypeRadars"></a>
 
+Dans cette deuxième visualisation réalisée à l'aide de l'outil Rawgraph, un diagramme Treemap a été utilisé pour mettre en évidence la disponibilité des différents types de radars dans le territoire. On observe que les radars fixes sont les plus répandus sur l'ensemble du territoire, mais principalement dans les départements 78 et 92. Les radars feu rouge sont le deuxième type de radar le plus disponible, suivis par les radars discriminants, tandis que les trois autres types de radars sont moins présents.
 
 ![viz](https://user-images.githubusercontent.com/121629941/218332270-64328c76-3000-4e8b-af0e-6f28a9885b17.png)
 
-
-Les dates-clés du contrôle automatisé
-https://www.securite-routiere.gouv.fr/radars/chiffres-radars/historique-des-radars
 
 ## Radars et baisse de la mortalité routière
 ###Croisement de doonnées 
